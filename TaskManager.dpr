@@ -2,7 +2,7 @@ program TaskManager;
 
 uses
   Vcl.Forms,
-  TaskList in 'TaskList.pas' {Form4};
+  TasksList in 'TasksList.pas' {Form4};
 
 {$R *.res}
 
