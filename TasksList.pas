@@ -22,7 +22,7 @@ Uses
     Vcl.StdCtrls,
     Vcl.Buttons,
     Vcl.ExtCtrls,
-    Vcl.Imaging.Jpeg;
+    Vcl.Imaging.Jpeg, System.ImageList, Vcl.ImgList, Vcl.Menus;
 
 Type
     TForm4 = Class(TForm)
@@ -30,8 +30,19 @@ Type
         Label1: TLabel;
         PaintBox1: TPaintBox;
         PaintBox2: TPaintBox;
-    Image2: TImage;
-    Image3: TImage;
+        Image2: TImage;
+        Image3: TImage;
+        Image4: TImage;
+        Label2: TLabel;
+    PaintBox3: TPaintBox;
+    Button2: TButton;
+    Button3: TButton;
+    ImageList1: TImageList;
+    Button1: TButton;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    Label3: TLabel;
         Procedure PaintBox1Paint(Sender: TObject);
         Procedure PaintBox2Paint(Sender: TObject);
     Private
