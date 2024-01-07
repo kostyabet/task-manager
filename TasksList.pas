@@ -82,6 +82,8 @@ Begin
     PaintBox2.Canvas.Pen.Color := ClBlue;
     PaintBox2.Canvas.MoveTo(0, 0);
     PaintBox2.Canvas.LineTo(40, 0);
+
+    PaintBox2.Canvas.Pen.Color := ClBlue;
 End;
 
 End.
